@@ -1,0 +1,205 @@
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #ddd;
+}
+/* header */
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    margin-top: 10px;
+    width: 120px;
+}
+.headerwrap a{
+    margin: 0 20px;
+    color: #fff;
+}
+/* main */
+.main{
+    width: 1200px;
+    margin: 30px auto;
+}
+.content{
+    width: 900px;
+    float: left;
+    border: 2px solid red;
+}
+.nav{
+    padding-left: 20px;
+    padding-top: 2px;
+    background-color:rgb(245, 245, 245);
+}
+.nav a{
+    margin : 0 10px;
+    color: green;
+  
+}
+.nav a:hover{
+    color: blue;
+}
+.list{
+    width: 100%;
+    height: 40px;
+}
+#reply{
+    margin-left: 20px;
+    width: 20px;
+    float: left;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 2px;
+}
+#visit{
+    float: left;
+    width: 60px;
+    font-size: 14px;
+    height: 26px;
+    margin-top: 8px;
+}
+.tab{
+    float: left;
+    margin-left: 20px;
+    width: 35px;
+    margin-top: 8px;
+    background-color:rgb(216, 216, 216);
+    border-radius: 5px;
+    text-align: center;
+}
+.good{
+    float: left;
+    margin-left: 20px;
+    width: 35px;
+    margin-top: 8px;
+    background-color:rgb(78, 233, 78);
+    border-radius: 5px;
+    text-align: center;
+}
+.ask1{
+    float: left;
+    margin-left: 20px;
+    width: 35px;
+    margin-top: 8px;
+    background-color:rgb(202, 209, 202);
+    border-radius: 5px;
+    text-align: center;
+}
+#top{
+    background-color:rgb(78, 233, 78);
+}
+#title{
+    float: left;
+    margin-left: 20px;
+    width: 650px;
+    margin-top: 8px;
+    height: 25px;
+    overflow: hidden;
+}
+.timeago{
+    float:right;
+}
+#title a{
+    color : black;
+    width: 400px;
+    display: block;
+    float: left;
+    height: 20px;
+    text-overflow:ellipsis
+}
+#title a:hover{
+    text-decoration: underline;
+}
+.icons{
+    margin-top: 2px;
+    margin-left: 20px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.backicons{
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+    float: right;
+}
+.conbox{
+    background-color: rgb(248, 188, 188);
+}
+.table{
+    width: 200px;
+    height: 20px;
+    margin-left: 300px;
+}
+.td{
+    border: solid black 1px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.button{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.sider{
+    width: 270px;
+    height: 500px;
+    float: right;
+    background-color: #ddd;
+}
+.imglist{
+    margin-top: 5px;
+    width: 270px;
+    height: 164px;
+    background-color: white;
+}
+.tip{
+    width: 270px;
+    height: 100px;
+    background-color:white;
+    padding-left: 12px;
+}
+.imglist img{
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 250px;
+    height: 50px;
+}
+.topi{
+    width: 270px;
+    height: 220px;
+    margin-top: 10px;
+    background-color: white;
+}
+.H3{
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+}
+.topi p{
+    margin-left: 10px;
+}
+.credit{
+    width: 270px;
+    height: 385px;
+    margin-top: 10px;
+    background-color: white;
+}
+.credit h3{
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+}
+.credit p{
+    margin-left: 10px;
+}
